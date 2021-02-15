@@ -1,0 +1,36 @@
+body{
+    font-family: 'Exo 2', sans-serif;
+}
+
+.flex-sm-column{
+    margin: 80px -20px 20px 20px;
+}
+
+.flex-sm-column >li >a{
+    padding: 20 20px;
+}
+
+.flex-sm-column >li >a:hover{
+    background-color: #e5e5e5;
+    text-decoration-line: none;
+}
+
+.main{
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.placeholders{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.placeholder{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.placeholder img{
+    display: inline;
+    border-radius: 50%
+}

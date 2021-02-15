@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+    <title>Your Own Admin</title>
+    
+    <!--Template based on URL below-->
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
+<!--    font awesome cdn link:-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+   
+   
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+<!--    google fonts here:-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;600&display=swap" rel="stylesheet">
+   
+   
+    <!-- Place your stylesheet here-->
+    <link href="css/AdminDashboard.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<!--navbar starts here:-->
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Admin Dashboard</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#"><i class="fas fa-tachometer-alt"></i> Dashboard<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-cog"></i> Settings</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-user-circle"></i> Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-question"></i> Help</a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-user-plus"></i> Add Users</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-clone"></i> Add Categories</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--navbar ends here-->
+   
+   <div class="container-fluid">
+      <div class="row">
+          <div class="col-sm-3 col-md-2 sidebar">
+              <ul class="nav flex-sm-column">
+                  <li class="nav-link active"><a href="#">Reports</a></li>
+                  <li class="nav-link"><a href="#">Stats</a></li>
+                  <li class="nav-link"><a href="#">Graphs</a></li>
+                  <li class="nav-link"><a href="#">Users</a></li>
+              </ul>
+                   <ul class="nav flex-sm-column">
+                  <li class="nav-link active"><a href="#">Reports</a></li>
+                  <li class="nav-link"><a href="#">Revenue</a></li>
+                  <li class="nav-link"><a href="#">Countries</a></li>
+                  <li class="nav-link"><a href="#">Spamers</a></li>
+              </ul>
+          </div>
+          <div class="col-sm-9 col-md-10 main">
+              <h1 class="page-header"><i class="fas fa-tachometer-alt"></i> Dashboard</h1>
+              <hr>
+              <div class="row placeholders">
+                  <div class="col-xs-6 col-sm-3 placeholder">
+                      <img src="images/graph.png" class="img-fluid" width="200px" height="200px" alt="">
+                      <h4>Label</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-xs-6 col-sm-3 placeholder">
+                      <img src="images/graph.png" class="img-fluid" width="200px" height="200px" alt="">
+                      <h4>Label</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-xs-6 col-sm-3 placeholder">
+                      <img src="images/graph.png" class="img-fluid" width="200px" height="200px" alt="">
+                      <h4>Label</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-xs-6 col-sm-3 placeholder">
+                      <img src="images/graph.png" class="img-fluid" width="200px" height="200px" alt="">
+                      <h4>Label</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+              </div>
+              <h2 class="sub-header">Datail Results</h2>
+              <div class="table-responsive">
+                  <table class="table table-striped">
+                      <thead>
+                          <tr>
+                              <th>ID#</th>
+                              <th>Detail 1#</th>
+                              <th>Detail 2#</th>
+                              <th>Detail 3#</th>
+                              <th>Detail 4#</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>234</td>
+                              <td>John</td>
+                              <td>Pentesting</td>
+                              <td>China</td>
+                              <td>90$</td>
+                          </tr>
+                          <tr>
+                              <td>234</td>
+                              <td>John</td>
+                              <td>Pentesting</td>
+                              <td>China</td>
+                              <td>90$</td>
+                          </tr>
+                          <tr>
+                              <td>234</td>
+                              <td>John</td>
+                              <td>Pentesting</td>
+                              <td>China</td>
+                              <td>90$</td>
+                          </tr>
+                          <tr>
+                              <td>234</td>
+                              <td>John</td>
+                              <td>Pentesting</td>
+                              <td>China</td>
+                              <td>90$</td>
+                          </tr>
+                          <tr>
+                              <td>234</td>
+                              <td>John</td>
+                              <td>Pentesting</td>
+                              <td>China</td>
+                              <td>90$</td>
+                          </tr>
+                          <tr>
+                              <td>234</td>
+                              <td>John</td>
+                              <td>Pentesting</td>
+                              <td>China</td>
+                              <td>90$</td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+      </div>
+       
+   </div>
+   
+   
+    <main role="main" class="container">
+
+        <div class="text-center mt-5 pt-5">
+            <h1>Bootstrap starter template</h1>
+            <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+        </div>
+
+    </main><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
